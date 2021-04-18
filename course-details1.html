@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,7 +18,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animatecss/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -43,18 +44,20 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <h1><a href="index.html">IntHelp</a></h1>
+        <h1><a href="index.php">IntHelp</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
           <li><a class="nav-link scrollto" href="index.html#about">О нас</a></li>
           <li><a class="nav-link scrollto" href="index.html#testimonials">Отзывы</a></li>
           <li><a class="nav-link scrollto" href="index.html#contact">Задать вопрос</a></li>
           <li><a class="nav-link scrollto" href="inner-page.html">Вопросы</a></li>
+          <li><a class="nav-link scrollto" href="login.php">Войти</a></li>
+          <a href="account.php?id=<?php echo $_GET['id']?>"><img src="img/1.jpg" alt="" class="" style="width: 50px; height: 50px;">
 
           
         </ul>
@@ -72,15 +75,14 @@
       <div class="container" data-aos="fade-up">
 
         <div class="row">
-          <div class="col-lg-8">
-            <img src="assets/img/features-2.png" class="img-fluid" alt="">
-            <h3>Et enim incidunt fuga tempora</h3>
+           <div class="col-lg-8">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/muKOeM73YdY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>ВИРУСЫ И ВРЕДОНОСНЫЕ ПРОГРАММЫ ТОЛЬКО НА МОШЕННИЧЕСКИХ САЙТАХ?</h3>
             <p>
-              Qui et explicabo voluptatem et ab qui vero et voluptas. Sint voluptates temporibus quam autem. Atque nostrum voluptatum laudantium a doloremque enim et ut dicta. Nostrum ducimus est iure minima totam doloribus nisi ullam deserunt. Corporis aut officiis sit nihil est. Labore aut sapiente aperiam.
-              Qui voluptas qui vero ipsum ea voluptatem. Omnis et est. Voluptatem officia voluptatem adipisci et iusto provident doloremque consequatur. Quia et porro est. Et qui corrupti laudantium ipsa.
-              Eum quasi saepe aperiam qui delectus quaerat in. Vitae mollitia ipsa quam. Ipsa aut qui numquam eum iste est dolorum. Rem voluptas ut sit ut.
+              Нет. Даже законные сайты могут быть заражены вирусом или другим видом вредоносного ПО. Помните: компьютерный вирус может проникнуть в вашу систему и другими способами, не только онлайн
             </p>
           </div>
+
           <div class="col-lg-4">
 
             <div class="course-info d-flex justify-content-between align-items-center">
@@ -125,7 +127,8 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/selecao-bootstrap-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="">Me</a>
+
       </div>
     </div>
   </footer><!-- End Footer -->s
