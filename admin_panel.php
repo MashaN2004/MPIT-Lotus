@@ -52,8 +52,8 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
-          <li><a class="nav-link scrollto" href="index.html#about">О нас</a></li>
-          <li><a class="nav-link scrollto" href="index.html#testimonials">Отзывы</a></li>
+          <li><a class="nav-link scrollto" href="index.php#about">О нас</a></li>
+          <li><a class="nav-link scrollto" href="index.php#testimonials">Отзывы</a></li>
         
           <li><a class="nav-link scrollto" href="inner-page.html">Вопросы</a></li>
 
@@ -81,7 +81,7 @@
       </div>
     </section><!-- End Breadcrumbs --> 
     <?php  
-      $connect = mysqli_connect("127.0.0.1", "root", "", "hackaton");
+      $connect = mysqli_connect("127.0.0.1", "root", "root", "hackaton");
       $join = mysqli_query($connect, "SELECT * FROM questions");
     ?>
     <section id="popular-courses" class="courses">

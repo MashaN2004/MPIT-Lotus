@@ -55,8 +55,8 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
-          <li><a class="nav-link scrollto" href="index.html#about">О нас</a></li>
-          <li><a class="nav-link scrollto" href="index.html#testimonials">Отзывы</a></li>
+          <li><a class="nav-link scrollto" href="index.php#about">О нас</a></li>
+          <li><a class="nav-link scrollto" href="index.php#testimonials">Отзывы</a></li>
           <li><a class="nav-link scrollto" href="inner-page.html">Вопросы</a></li>
           <li><a class="nav-link scrollto" href="login.php">Войти</a></li>
           <a href="account.php?id=<?php echo $_GET['id']?>"><img src="img/1.jpg" alt="" class="" style="width: 50px; height: 50px;">
@@ -87,7 +87,7 @@
     </section><!-- End Breadcrumbs -->
     
     <?php 
-      $con = mysqli_connect('127.0.0.1', 'root', '', 'hackaton');
+      $con = mysqli_connect('127.0.0.1', 'root', 'root', 'hackaton');
       $join = mysqli_query($con, "SELECT * FROM users INNER JOIN questions ON users.id = questions.user_id WHERE users.id='{$_GET['id']}'");
     ?>
     <section id="popular-courses" class="courses">
